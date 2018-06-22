@@ -1,0 +1,48 @@
+{
+  "name": "react-redux-todo",
+  "version": "0.0.1",
+  "description": "React redux todo example",
+  "homepage": "https://github.com/codejamninja/react-redux-todo",
+  "bugs": {
+    "url": "https://github.com/codejamninja/react-redux-todo/issues",
+    "email": "jam@codejam.ninja"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Jam Risser",
+    "email": "jam@codejam.ninja",
+    "url": "https://codejam.ninja"
+  },
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codejamninja/react-redux-todo"
+  },
+  "scripts": {
+    "start": "NODE_ENV=development parcel src/index.html --open",
+    "build": "parcel build src/index.html",
+    "clean": "rm -rf .cache dist"
+  },
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-plugin-transform-decorators-legacy": "^1.3.5",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "eslint": "^4.18.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.9.0",
+    "parcel-bundler": "^1.9.2"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  }
+}
